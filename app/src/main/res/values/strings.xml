@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">USB Camera App</string>
+    <string name="connect_camera">Connect USB Camera</string>
+    <string name="camera_not_connected">Camera not connected</string>
+    <string name="request_permission">Request USB Permission</string>
+    <string name="permission_granted">USB Permission Granted</string>
+    <string name="permission_denied">USB Permission Denied</string>
+    <string name="no_camera_detected">No USB camera detected</string>
+    <string name="camera_connected">Camera connected</string>
+</resources>
