@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/karthik/.gradle/daemon/8.2/com.example.usbcamapp-merged_res-31:/xml_device_filter.xml.flat",
+        "source": "/home/karthik/.gradle/daemon/8.2/com.example.usbcamapp-main-33:/xml/device_filter.xml"
+    },
+    {
+        "merged": "com.example.usbcamapp-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.usbcamapp-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.usbcamapp-merged_res-31:/xml_backup_rules.xml.flat",
+        "source": "com.example.usbcamapp-main-33:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/home/karthik/.gradle/daemon/8.2/com.example.usbcamapp-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "/home/karthik/.gradle/daemon/8.2/com.example.usbcamapp-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.usbcamapp-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.usbcamapp-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.usbcamapp-merged_res-31:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.usbcamapp-main-33:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.usbcamapp-merged_res-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.usbcamapp-main-33:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.usbcamapp-merged_res-31:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.usbcamapp-main-33:/drawable/ic_launcher_foreground.xml"
+    }
+]

@@ -5,6 +5,7 @@ import android.graphics.Canvas
 import android.graphics.Color
 import android.graphics.Paint
 import android.graphics.PixelFormat
+import android.hardware.usb.UsbConstants
 import android.hardware.usb.UsbDevice
 import android.hardware.usb.UsbDeviceConnection
 import android.hardware.usb.UsbEndpoint
@@ -79,7 +80,7 @@ class UvcCameraHandler(
             // Find the video endpoint
             for (i in 0 until cameraInterface!!.endpointCount) {
                 val endpoint = cameraInterface!!.getEndpoint(i)
-                if (endpoint.type == UsbEndpoint.TYPE_BULK || endpoint.type == UsbEndpoint.TYPE_ISOCHRONOUS) {
+                if (endpoint.type == UsbConstants.USB_ENDPOINT_XFER_BULK || endpoint.type == UsbConstants.USB_ENDPOINT_XFER_ISOC) {
                     videoEndpoint = endpoint
                     break
                 }
