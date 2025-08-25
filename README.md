@@ -113,13 +113,5 @@ This implementation is a demonstration of the core concepts. A production app wo
 
 - AndroidX libraries
 - Mobile FFmpeg (for video decoding in a production app)
-
----
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-
-
+  
 ---
