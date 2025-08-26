@@ -25,10 +25,10 @@ com.example.usbcamapp-emoji2-views-helper-1.2.0-23 /home/karthik/.gradle/caches/
 com.example.usbcamapp-activity-1.8.2-24 /home/karthik/.gradle/caches/transforms-3/d0e8a75b454f14404cd887bfa73dd098/transformed/activity-1.8.2/res
 com.example.usbcamapp-cardview-1.0.0-25 /home/karthik/.gradle/caches/transforms-3/d438f2411fb576383aec684a338902b0/transformed/cardview-1.0.0/res
 com.example.usbcamapp-transition-1.2.0-26 /home/karthik/.gradle/caches/transforms-3/db795928c32bc1d266fcedb6724f1ae2/transformed/transition-1.2.0/res
-com.example.usbcamapp-pngs-27 /home/karthik/USBCamApp/app/build/generated/res/pngs/debug
-com.example.usbcamapp-resValues-28 /home/karthik/USBCamApp/app/build/generated/res/resValues/debug
-com.example.usbcamapp-packageDebugResources-29 /home/karthik/USBCamApp/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.example.usbcamapp-packageDebugResources-30 /home/karthik/USBCamApp/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.example.usbcamapp-merged_res-31 /home/karthik/USBCamApp/app/build/intermediates/merged_res/debug
-com.example.usbcamapp-debug-32 /home/karthik/USBCamApp/app/src/debug/res
-com.example.usbcamapp-main-33 /home/karthik/USBCamApp/app/src/main/res
+com.example.usbcamapp-pngs-27 /home/karthik/Android-USB-Cam/app/build/generated/res/pngs/debug
+com.example.usbcamapp-resValues-28 /home/karthik/Android-USB-Cam/app/build/generated/res/resValues/debug
+com.example.usbcamapp-packageDebugResources-29 /home/karthik/Android-USB-Cam/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.usbcamapp-packageDebugResources-30 /home/karthik/Android-USB-Cam/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.usbcamapp-merged_res-31 /home/karthik/Android-USB-Cam/app/build/intermediates/merged_res/debug
+com.example.usbcamapp-debug-32 /home/karthik/Android-USB-Cam/app/src/debug/res
+com.example.usbcamapp-main-33 /home/karthik/Android-USB-Cam/app/src/main/res

@@ -10,157 +10,164 @@
 10
 11    <!-- USB Host Mode Permission -->
 12    <uses-feature
-12-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:6:5-86
+12-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:6:5-86
 13        android:name="android.hardware.usb.host"
-13-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:6:19-59
+13-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:6:19-59
 14        android:required="true" />
-14-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:6:60-83
+14-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:6:60-83
 15
 16    <!-- Camera Permission (for internal camera if needed) -->
 17    <uses-permission android:name="android.permission.CAMERA" />
-17-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:9:5-65
-17-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:9:22-62
+17-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:9:5-65
+17-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:9:22-62
 18
-19    <!-- Storage Permissions (if needed for saving images/videos) -->
-20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-20-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:12:5-81
-20-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:12:22-78
-21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-21-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:13:5-80
-21-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:13:22-77
+19    <uses-feature
+19-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:10:5-85
+20        android:name="android.hardware.camera"
+20-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:10:19-57
+21        android:required="false" />
+21-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:10:58-82
 22
-23    <permission
-23-->[androidx.core:core:1.12.0] /home/karthik/.gradle/caches/transforms-3/59dc1fa00f2ef03bdbdf8d2105f346cd/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
-24        android:name="com.example.usbcamapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-24-->[androidx.core:core:1.12.0] /home/karthik/.gradle/caches/transforms-3/59dc1fa00f2ef03bdbdf8d2105f346cd/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
-25        android:protectionLevel="signature" />
-25-->[androidx.core:core:1.12.0] /home/karthik/.gradle/caches/transforms-3/59dc1fa00f2ef03bdbdf8d2105f346cd/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+23    <!-- Storage Permissions (if needed for saving images/videos) -->
+24    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+24-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:13:5-81
+24-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:13:22-78
+25    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+25-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:14:5-80
+25-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:14:22-77
 26
-27    <uses-permission android:name="com.example.usbcamapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-27-->[androidx.core:core:1.12.0] /home/karthik/.gradle/caches/transforms-3/59dc1fa00f2ef03bdbdf8d2105f346cd/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
-27-->[androidx.core:core:1.12.0] /home/karthik/.gradle/caches/transforms-3/59dc1fa00f2ef03bdbdf8d2105f346cd/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
-28
-29    <application
-29-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:15:5-42:19
-30        android:allowBackup="true"
-30-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:16:9-35
-31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-31-->[androidx.core:core:1.12.0] /home/karthik/.gradle/caches/transforms-3/59dc1fa00f2ef03bdbdf8d2105f346cd/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
-32        android:dataExtractionRules="@xml/data_extraction_rules"
-32-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:17:9-65
-33        android:extractNativeLibs="true"
-34        android:fullBackupContent="@xml/backup_rules"
-34-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:18:9-54
-35        android:icon="@mipmap/ic_launcher"
-35-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:19:9-43
-36        android:label="@string/app_name"
-36-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:20:9-41
-37        android:roundIcon="@mipmap/ic_launcher_round"
-37-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:21:9-54
-38        android:supportsRtl="true"
-38-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:22:9-35
-39        android:theme="@style/Theme.USBCamApp" >
-39-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:23:9-47
-40        <activity
-40-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:25:9-41:20
-41            android:name="com.example.usbcamapp.MainActivity"
-41-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:26:13-41
-42            android:exported="true"
-42-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:27:13-36
-43            android:theme="@style/Theme.USBCamApp" >
-43-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:28:13-51
-44            <intent-filter>
-44-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:29:13-32:29
-45                <action android:name="android.intent.action.MAIN" />
-45-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:30:17-69
-45-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:30:25-66
-46
-47                <category android:name="android.intent.category.LAUNCHER" />
-47-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:31:17-77
-47-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:31:27-74
-48            </intent-filter>
-49
-50            <!-- Intent filter for USB device attached -->
-51            <intent-filter>
-51-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:35:13-37:29
-52                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
-52-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:36:17-90
-52-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:36:25-87
-53            </intent-filter>
-54
-55            <meta-data
-55-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:39:13-40:57
-56                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
-56-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:39:24-86
-57                android:resource="@xml/device_filter" />
-57-->/home/karthik/USBCamApp/app/src/main/AndroidManifest.xml:40:17-54
-58        </activity>
-59
-60        <provider
-60-->[androidx.emoji2:emoji2:1.2.0] /home/karthik/.gradle/caches/transforms-3/c0772738aefef5b388c4be3ddf5763ce/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-61            android:name="androidx.startup.InitializationProvider"
-61-->[androidx.emoji2:emoji2:1.2.0] /home/karthik/.gradle/caches/transforms-3/c0772738aefef5b388c4be3ddf5763ce/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-62            android:authorities="com.example.usbcamapp.androidx-startup"
-62-->[androidx.emoji2:emoji2:1.2.0] /home/karthik/.gradle/caches/transforms-3/c0772738aefef5b388c4be3ddf5763ce/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-63            android:exported="false" >
-63-->[androidx.emoji2:emoji2:1.2.0] /home/karthik/.gradle/caches/transforms-3/c0772738aefef5b388c4be3ddf5763ce/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-64            <meta-data
-64-->[androidx.emoji2:emoji2:1.2.0] /home/karthik/.gradle/caches/transforms-3/c0772738aefef5b388c4be3ddf5763ce/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-65                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-65-->[androidx.emoji2:emoji2:1.2.0] /home/karthik/.gradle/caches/transforms-3/c0772738aefef5b388c4be3ddf5763ce/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-66                android:value="androidx.startup" />
-66-->[androidx.emoji2:emoji2:1.2.0] /home/karthik/.gradle/caches/transforms-3/c0772738aefef5b388c4be3ddf5763ce/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
-67            <meta-data
-67-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/karthik/.gradle/caches/transforms-3/73fe95015b66fe100e4fc15d0e867dfb/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
-68                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-68-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/karthik/.gradle/caches/transforms-3/73fe95015b66fe100e4fc15d0e867dfb/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
-69                android:value="androidx.startup" />
-69-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/karthik/.gradle/caches/transforms-3/73fe95015b66fe100e4fc15d0e867dfb/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
-70            <meta-data
-70-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
-71                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-71-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
-72                android:value="androidx.startup" />
-72-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
-73        </provider>
-74
-75        <receiver
-75-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
-76            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-76-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
-77            android:directBootAware="false"
-77-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
-78            android:enabled="true"
-78-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
-79            android:exported="true"
-79-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
-80            android:permission="android.permission.DUMP" >
-80-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
-81            <intent-filter>
-81-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
-82                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-82-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
-82-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
-83            </intent-filter>
-84            <intent-filter>
-84-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
-85                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-85-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
-85-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
-86            </intent-filter>
-87            <intent-filter>
-87-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
-88                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-88-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
-88-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
-89            </intent-filter>
-90            <intent-filter>
-90-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
-91                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-91-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
-91-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
-92            </intent-filter>
-93        </receiver>
-94    </application>
-95
-96</manifest>
+27    <permission
+27-->[androidx.core:core:1.12.0] /home/karthik/.gradle/caches/transforms-3/59dc1fa00f2ef03bdbdf8d2105f346cd/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+28        android:name="com.example.usbcamapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+28-->[androidx.core:core:1.12.0] /home/karthik/.gradle/caches/transforms-3/59dc1fa00f2ef03bdbdf8d2105f346cd/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+29        android:protectionLevel="signature" />
+29-->[androidx.core:core:1.12.0] /home/karthik/.gradle/caches/transforms-3/59dc1fa00f2ef03bdbdf8d2105f346cd/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+30
+31    <uses-permission android:name="com.example.usbcamapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+31-->[androidx.core:core:1.12.0] /home/karthik/.gradle/caches/transforms-3/59dc1fa00f2ef03bdbdf8d2105f346cd/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+31-->[androidx.core:core:1.12.0] /home/karthik/.gradle/caches/transforms-3/59dc1fa00f2ef03bdbdf8d2105f346cd/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+32
+33    <application
+33-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:16:5-43:19
+34        android:allowBackup="true"
+34-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:17:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.12.0] /home/karthik/.gradle/caches/transforms-3/59dc1fa00f2ef03bdbdf8d2105f346cd/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+36        android:dataExtractionRules="@xml/data_extraction_rules"
+36-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:18:9-65
+37        android:extractNativeLibs="true"
+38        android:fullBackupContent="@xml/backup_rules"
+38-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:19:9-54
+39        android:icon="@mipmap/ic_launcher"
+39-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:20:9-43
+40        android:label="@string/app_name"
+40-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:21:9-41
+41        android:roundIcon="@mipmap/ic_launcher_round"
+41-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:22:9-54
+42        android:supportsRtl="true"
+42-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:23:9-35
+43        android:theme="@style/Theme.USBCamApp" >
+43-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:24:9-47
+44        <activity
+44-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:26:9-42:20
+45            android:name="com.example.usbcamapp.MainActivity"
+45-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:27:13-41
+46            android:exported="true"
+46-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:28:13-36
+47            android:theme="@style/Theme.USBCamApp" >
+47-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:29:13-51
+48            <intent-filter>
+48-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:30:13-33:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:31:17-69
+49-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:31:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:32:17-77
+51-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:32:27-74
+52            </intent-filter>
+53
+54            <!-- Intent filter for USB device attached -->
+55            <intent-filter>
+55-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:36:13-38:29
+56                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+56-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:37:17-90
+56-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:37:25-87
+57            </intent-filter>
+58
+59            <meta-data
+59-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:40:13-41:57
+60                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+60-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:40:24-86
+61                android:resource="@xml/device_filter" />
+61-->/home/karthik/Android-USB-Cam/app/src/main/AndroidManifest.xml:41:17-54
+62        </activity>
+63
+64        <provider
+64-->[androidx.emoji2:emoji2:1.2.0] /home/karthik/.gradle/caches/transforms-3/c0772738aefef5b388c4be3ddf5763ce/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+65            android:name="androidx.startup.InitializationProvider"
+65-->[androidx.emoji2:emoji2:1.2.0] /home/karthik/.gradle/caches/transforms-3/c0772738aefef5b388c4be3ddf5763ce/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+66            android:authorities="com.example.usbcamapp.androidx-startup"
+66-->[androidx.emoji2:emoji2:1.2.0] /home/karthik/.gradle/caches/transforms-3/c0772738aefef5b388c4be3ddf5763ce/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+67            android:exported="false" >
+67-->[androidx.emoji2:emoji2:1.2.0] /home/karthik/.gradle/caches/transforms-3/c0772738aefef5b388c4be3ddf5763ce/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+68            <meta-data
+68-->[androidx.emoji2:emoji2:1.2.0] /home/karthik/.gradle/caches/transforms-3/c0772738aefef5b388c4be3ddf5763ce/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+69                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+69-->[androidx.emoji2:emoji2:1.2.0] /home/karthik/.gradle/caches/transforms-3/c0772738aefef5b388c4be3ddf5763ce/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+70                android:value="androidx.startup" />
+70-->[androidx.emoji2:emoji2:1.2.0] /home/karthik/.gradle/caches/transforms-3/c0772738aefef5b388c4be3ddf5763ce/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+71            <meta-data
+71-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/karthik/.gradle/caches/transforms-3/73fe95015b66fe100e4fc15d0e867dfb/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+72                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+72-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/karthik/.gradle/caches/transforms-3/73fe95015b66fe100e4fc15d0e867dfb/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+73                android:value="androidx.startup" />
+73-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/karthik/.gradle/caches/transforms-3/73fe95015b66fe100e4fc15d0e867dfb/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+74            <meta-data
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+75                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+76                android:value="androidx.startup" />
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+77        </provider>
+78
+79        <receiver
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+80            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+81            android:directBootAware="false"
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+82            android:enabled="true"
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+83            android:exported="true"
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+84            android:permission="android.permission.DUMP" >
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+85            <intent-filter>
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+86                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+87            </intent-filter>
+88            <intent-filter>
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+89                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+90            </intent-filter>
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+92                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+93            </intent-filter>
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+95                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/karthik/.gradle/caches/transforms-3/4d4335495ca4c208203439335a382bf0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+96            </intent-filter>
+97        </receiver>
+98    </application>
+99
+100</manifest>

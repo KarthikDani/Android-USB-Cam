@@ -7,6 +7,7 @@
     
     <!-- Camera Permission (for internal camera if needed) -->
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
     
     <!-- Storage Permissions (if needed for saving images/videos) -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />

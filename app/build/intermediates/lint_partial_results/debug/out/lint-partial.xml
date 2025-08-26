@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.2.0" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.example.usbcamapp.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnsafeImplicitIntentLaunch">
+            <map id="actionsRegisteredNonExported">
+                <entry
+                    name="com.example.usbcamapp.USB_PERMISSION (used to send a broadcast)"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.string.request_permission"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="5"
+            column="13"
+            startOffset="208"
+            endLine="5"
+            endColumn="38"
+            endOffset="233"/>
+        <location id="R.color.purple_200"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="3"
+            column="12"
+            startOffset="62"
+            endLine="3"
+            endColumn="29"
+            endOffset="79"/>
+        <entry
+            name="model"
+            string="attr[colorPrimaryVariant(R)],color[purple_200(D),black(U),teal_200(U),white(U),teal_700(U),purple_700(U),purple_500(U)],drawable[ic_launcher_foreground(U),ic_launcher_background(U)],id[disconnectButton(U),cameraPreview(U),connectButton(U),statusText(U),buttonLayout(U)],layout[activity_main(U)],mipmap[ic_launcher_round(U),ic_launcher(U)],string[permission_granted(U),camera_connected(U),permission_denied(U),connect_camera(U),app_name(U),no_camera_detected(U),request_permission(D),camera_not_connected(U)],style[Theme_Material3_DayNight_NoActionBar(R),Theme_USBCamApp(U)],xml[data_extraction_rules(U),device_filter(U),backup_rules(U)];f^19^d^15^e,10^9^8,11^9^8,1b^1a^7^6^4^3^5^2^0;;;"/>
+    </map>
+
+</incidents>

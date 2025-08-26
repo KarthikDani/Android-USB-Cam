@@ -15,6 +15,7 @@ import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 
 class MainActivity : AppCompatActivity() {
     
@@ -42,11 +43,11 @@ class MainActivity : AppCompatActivity() {
         
         // Create pending intent for USB permission
         val permissionIntent = Intent(ACTION_USB_PERMISSION)
-        pendingIntent = PendingIntent.getBroadcast(this, 0, permissionIntent, PendingIntent.FLAG_MUTABLE)
+        pendingIntent = PendingIntent.getBroadcast(this, 0, permissionIntent, PendingIntent.FLAG_IMMUTABLE)
         
         // Register BroadcastReceiver for USB permissions
         val filter = IntentFilter(ACTION_USB_PERMISSION)
-        registerReceiver(usbReceiver, filter)
+        ContextCompat.registerReceiver(this, usbReceiver, filter, ContextCompat.RECEIVER_NOT_EXPORTED)
         
         // Set up button click listeners
         connectButton.setOnClickListener {

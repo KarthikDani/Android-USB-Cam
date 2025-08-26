@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.2.0" type="incidents">
+
+    <incident
+        id="ButtonStyle"
+        severity="warning"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)">
+        <fix-composite
+            description="Make borderless">
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarStyle">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+                    startOffset="1010"
+                    endOffset="2208"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+                    startOffset="1430"
+                    endOffset="1788"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+                    startOffset="1798"
+                    endOffset="2187"/>
+            </fix-attribute>
+        </fix-composite>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="38"
+            column="10"
+            startOffset="1431"
+            endLine="38"
+            endColumn="16"
+            endOffset="1437"/>
+    </incident>
+
+    <incident
+        id="ButtonStyle"
+        severity="warning"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)">
+        <fix-composite
+            description="Make borderless">
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarStyle">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+                    startOffset="1010"
+                    endOffset="2208"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+                    startOffset="1430"
+                    endOffset="1788"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+                    startOffset="1798"
+                    endOffset="2187"/>
+            </fix-attribute>
+        </fix-composite>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="48"
+            column="10"
+            startOffset="1799"
+            endLine="48"
+            endColumn="16"
+            endOffset="1805"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Disconnect&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="55"
+            column="13"
+            startOffset="2081"
+            endLine="55"
+            endColumn="38"
+            endOffset="2106"/>
+    </incident>
+
+    <incident
+        id="MonochromeLauncherIcon"
+        severity="warning"
+        message="The application adaptive icon is missing a monochrome tag">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-anydpi-v26/ic_launcher.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="5"
+            endColumn="17"
+            endOffset="272"/>
+    </incident>
+
+    <incident
+        id="MonochromeLauncherIcon"
+        severity="warning"
+        message="The application adaptive roundIcon is missing a monochrome tag">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-anydpi-v26/ic_launcher_round.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="5"
+            endColumn="17"
+            endOffset="272"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/usbcamapp/MainActivity.kt"
+            line="67"
+            column="40"
+            startOffset="2658"
+            endLine="67"
+            endColumn="57"
+            endOffset="2675"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/usbcamapp/MainActivity.kt"
+            line="78"
+            column="36"
+            startOffset="3112"
+            endLine="78"
+            endColumn="53"
+            endOffset="3129"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/usbcamapp/MainActivity.kt"
+            line="124"
+            column="28"
+            startOffset="4724"
+            endLine="124"
+            endColumn="47"
+            endOffset="4743"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/usbcamapp/MainActivity.kt"
+            line="132"
+            column="36"
+            startOffset="5066"
+            endLine="132"
+            endColumn="74"
+            endOffset="5104"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/usbcamapp/MainActivity.kt"
+            line="141"
+            column="40"
+            startOffset="5593"
+            endLine="141"
+            endColumn="57"
+            endOffset="5610"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/usbcamapp/MainActivity.kt"
+            line="144"
+            column="36"
+            startOffset="5686"
+            endLine="144"
+            endColumn="63"
+            endOffset="5713"/>
+    </incident>
+
+    <incident
+        id="OldTargetApi"
+        severity="warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details.">
+        <fix-replace
+            description="Update targetSdkVersion to 36"
+            oldString="34"
+            replacement="36"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="13"
+            column="9"
+            startOffset="243"
+            endLine="13"
+            endColumn="21"
+            endOffset="255"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use the existing version catalog reference (`libs.androidx.core.ktx`) instead">
+        <fix-replace
+            description="Replace with existing version catalog reference `androidx-core-ktx`"
+            robot="true"
+            independent="true"
+            replacement="libs.androidx.core.ktx">
+            <range
+                file="${:app*projectDir}/build.gradle"
+                startOffset="846"
+                endOffset="877"/>
+        </fix-replace>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="39"
+            column="20"
+            startOffset="846"
+            endLine="39"
+            endColumn="51"
+            endOffset="877"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use the existing version catalog reference (`libs.androidx.appcompat`) instead">
+        <fix-replace
+            description="Replace with existing version catalog reference `androidx-appcompat`"
+            robot="true"
+            independent="true"
+            replacement="libs.androidx.appcompat">
+            <range
+                file="${:app*projectDir}/build.gradle"
+                startOffset="897"
+                endOffset="933"/>
+        </fix-replace>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="40"
+            column="20"
+            startOffset="897"
+            endLine="40"
+            endColumn="56"
+            endOffset="933"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use the existing version catalog reference (`libs.material`) instead">
+        <fix-replace
+            description="Replace with existing version catalog reference `material`"
+            robot="true"
+            independent="true"
+            replacement="libs.material">
+            <range
+                file="${:app*projectDir}/build.gradle"
+                startOffset="953"
+                endOffset="998"/>
+        </fix-replace>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="41"
+            column="20"
+            startOffset="953"
+            endLine="41"
+            endColumn="65"
+            endOffset="998"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use the existing version catalog reference (`libs.androidx.activity`) instead">
+        <fix-replace
+            description="Replace with existing version catalog reference `androidx-activity`"
+            robot="true"
+            independent="true"
+            replacement="libs.androidx.activity">
+            <range
+                file="${:app*projectDir}/build.gradle"
+                startOffset="1018"
+                endOffset="1052"/>
+        </fix-replace>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="42"
+            column="20"
+            startOffset="1018"
+            endLine="42"
+            endColumn="54"
+            endOffset="1052"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use the existing version catalog reference (`libs.androidx.constraintlayout`) instead">
+        <fix-replace
+            description="Replace with existing version catalog reference `androidx-constraintlayout`"
+            robot="true"
+            independent="true"
+            replacement="libs.androidx.constraintlayout">
+            <range
+                file="${:app*projectDir}/build.gradle"
+                startOffset="1072"
+                endOffset="1122"/>
+        </fix-replace>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="43"
+            column="20"
+            startOffset="1072"
+            endLine="43"
+            endColumn="70"
+            endOffset="1122"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use the existing version catalog reference (`libs.junit`) instead">
+        <fix-replace
+            description="Replace with existing version catalog reference `junit`"
+            robot="true"
+            independent="true"
+            replacement="libs.junit">
+            <range
+                file="${:app*projectDir}/build.gradle"
+                startOffset="1315"
+                endOffset="1335"/>
+        </fix-replace>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="47"
+            column="24"
+            startOffset="1315"
+            endLine="47"
+            endColumn="44"
+            endOffset="1335"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use the existing version catalog reference (`libs.androidx.junit`) instead">
+        <fix-replace
+            description="Replace with existing version catalog reference `androidx-junit`"
+            robot="true"
+            independent="true"
+            replacement="libs.androidx.junit">
+            <range
+                file="${:app*projectDir}/build.gradle"
+                startOffset="1366"
+                endOffset="1397"/>
+        </fix-replace>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="48"
+            column="31"
+            startOffset="1366"
+            endLine="48"
+            endColumn="62"
+            endOffset="1397"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use the existing version catalog reference (`libs.androidx.espresso.core`) instead">
+        <fix-replace
+            description="Replace with existing version catalog reference `androidx-espresso-core`"
+            robot="true"
+            independent="true"
+            replacement="libs.androidx.espresso.core">
+            <range
+                file="${:app*projectDir}/build.gradle"
+                startOffset="1428"
+                endOffset="1472"/>
+        </fix-replace>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="49"
+            column="31"
+            startOffset="1428"
+            endLine="49"
+            endColumn="75"
+            endOffset="1472"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.core:core-ktx than 1.12.0 is available: 1.17.0">
+        <fix-replace
+            description="Change to 1.17.0"
+            family="Update versions"
+            oldString="1.12.0"
+            replacement="1.17.0"/>
+        <location
+            file="$HOME/Android-USB-Cam/gradle/libs.versions.toml"
+            line="4"
+            column="11"
+            startOffset="53"
+            endLine="4"
+            endColumn="19"
+            endOffset="61"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.3.0">
+        <fix-replace
+            description="Change to 1.3.0"
+            family="Update versions"
+            oldString="1.1.5"
+            replacement="1.3.0"/>
+        <location
+            file="$HOME/Android-USB-Cam/gradle/libs.versions.toml"
+            line="6"
+            column="16"
+            startOffset="94"
+            endLine="6"
+            endColumn="23"
+            endOffset="101"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.7.0">
+        <fix-replace
+            description="Change to 3.7.0"
+            family="Update versions"
+            oldString="3.5.1"
+            replacement="3.7.0"/>
+        <location
+            file="$HOME/Android-USB-Cam/gradle/libs.versions.toml"
+            line="7"
+            column="16"
+            startOffset="117"
+            endLine="7"
+            endColumn="23"
+            endOffset="124"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.1">
+        <fix-replace
+            description="Change to 1.7.1"
+            family="Update versions"
+            oldString="1.6.1"
+            replacement="1.7.1"/>
+        <location
+            file="$HOME/Android-USB-Cam/gradle/libs.versions.toml"
+            line="8"
+            column="13"
+            startOffset="137"
+            endLine="8"
+            endColumn="20"
+            endOffset="144"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.material:material than 1.11.0 is available: 1.12.0">
+        <fix-replace
+            description="Change to 1.12.0"
+            family="Update versions"
+            oldString="1.11.0"
+            replacement="1.12.0"/>
+        <location
+            file="$HOME/Android-USB-Cam/gradle/libs.versions.toml"
+            line="9"
+            column="12"
+            startOffset="156"
+            endLine="9"
+            endColumn="20"
+            endOffset="164"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.activity:activity than 1.8.2 is available: 1.10.1">
+        <fix-replace
+            description="Change to 1.10.1"
+            family="Update versions"
+            oldString="1.8.2"
+            replacement="1.10.1"/>
+        <location
+            file="$HOME/Android-USB-Cam/gradle/libs.versions.toml"
+            line="10"
+            column="12"
+            startOffset="176"
+            endLine="10"
+            endColumn="19"
+            endOffset="183"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1">
+        <fix-replace
+            description="Change to 2.2.1"
+            family="Update versions"
+            oldString="2.1.4"
+            replacement="2.2.1"/>
+        <location
+            file="$HOME/Android-USB-Cam/gradle/libs.versions.toml"
+            line="11"
+            column="20"
+            startOffset="203"
+            endLine="11"
+            endColumn="27"
+            endOffset="210"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.android.application than 8.2.0 is available: 8.12.1">
+        <fix-replace
+            description="Change to 8.12.1"
+            family="Update versions"
+            oldString="8.2.0"
+            replacement="8.12.1"/>
+        <location
+            file="$HOME/Android-USB-Cam/gradle/libs.versions.toml"
+            line="2"
+            column="7"
+            startOffset="17"
+            endLine="2"
+            endColumn="14"
+            endOffset="24"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.core:core-ktx than 1.12.0 is available: 1.17.0">
+        <fix-replace
+            description="Change to 1.17.0"
+            family="Update versions"
+            oldString="1.12.0"
+            replacement="1.17.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="39"
+            column="20"
+            startOffset="846"
+            endLine="39"
+            endColumn="51"
+            endOffset="877"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.1">
+        <fix-replace
+            description="Change to 1.7.1"
+            family="Update versions"
+            oldString="1.6.1"
+            replacement="1.7.1"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="40"
+            column="20"
+            startOffset="897"
+            endLine="40"
+            endColumn="56"
+            endOffset="933"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.material:material than 1.11.0 is available: 1.12.0">
+        <fix-replace
+            description="Change to 1.12.0"
+            family="Update versions"
+            oldString="1.11.0"
+            replacement="1.12.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="41"
+            column="20"
+            startOffset="953"
+            endLine="41"
+            endColumn="65"
+            endOffset="998"/>
+    </incident>
+
+    <incident
+        id="KtxExtensionAvailable"
+        severity="informational"
+        message="Add suffix `-ktx` to enable the Kotlin extensions for this library">
+        <fix-replace
+            description="Replace with KTX dependency"
+            oldString="androidx.activity:activity"
+            replacement="androidx.activity:activity-ktx"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="42"
+            column="20"
+            startOffset="1018"
+            endLine="42"
+            endColumn="54"
+            endOffset="1052"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.activity:activity than 1.8.2 is available: 1.10.1">
+        <fix-replace
+            description="Change to 1.10.1"
+            family="Update versions"
+            oldString="1.8.2"
+            replacement="1.10.1"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="42"
+            column="20"
+            startOffset="1018"
+            endLine="42"
+            endColumn="54"
+            endOffset="1052"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1">
+        <fix-replace
+            description="Change to 2.2.1"
+            family="Update versions"
+            oldString="2.1.4"
+            replacement="2.2.1"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="43"
+            column="20"
+            startOffset="1072"
+            endLine="43"
+            endColumn="70"
+            endOffset="1122"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.3.0">
+        <fix-replace
+            description="Change to 1.3.0"
+            family="Update versions"
+            oldString="1.1.5"
+            replacement="1.3.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="48"
+            column="31"
+            startOffset="1366"
+            endLine="48"
+            endColumn="62"
+            endOffset="1397"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.7.0">
+        <fix-replace
+            description="Change to 3.7.0"
+            family="Update versions"
+            oldString="3.5.1"
+            replacement="3.7.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="49"
+            column="31"
+            startOffset="1428"
+            endLine="49"
+            endColumn="75"
+            endOffset="1472"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `#2B2B2B` with a theme that also paints a background (inferred theme is `@style/Theme_USBCamApp`)">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="7"
+            column="5"
+            startOffset="341"
+            endLine="7"
+            endColumn="33"
+            endOffset="369"/>
+    </incident>
+
+</incidents>

@@ -81,7 +81,7 @@ The `UvcCameraHandler` class handles the UVC protocol:
 
 1. Parses UVC headers to identify frame boundaries
 2. Extracts complete video frames from the data stream
-3. Simulates frame decoding and rendering (in a production app, this would use a library like FFmpeg)
+3. Simulates frame decoding and rendering (Note: This app does NOT include a real FFmpeg library for video decoding. A production app would require one.)
 
 ### Video Streaming
 
@@ -112,6 +112,5 @@ This implementation is a demonstration of the core concepts. A production app wo
 ## Dependencies
 
 - AndroidX libraries
-- Mobile FFmpeg (for video decoding in a production app)
   
 ---

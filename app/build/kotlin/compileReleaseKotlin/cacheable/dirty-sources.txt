@@ -1,2 +1,0 @@
-/home/karthik/USBCamApp/app/src/main/java/com/example/usbcamapp/MainActivity.kt
-/home/karthik/USBCamApp/app/src/main/java/com/example/usbcamapp/UvcCameraHandler.kt
